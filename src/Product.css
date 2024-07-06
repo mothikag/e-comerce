@@ -1,0 +1,39 @@
+/* Products.css */
+
+.search-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the right */
+    align-items: center;
+    margin: 10px 20px; /* Adjust margin as needed */
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px; /* Space between input and button */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align products */
+    gap: 20px; /* Space between product cards */
+    padding: 20px;
+}
